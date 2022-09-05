@@ -1,0 +1,341 @@
+/* .front {
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.sec-second .row {
+    background-color: rgb(37, 3, 74);
+}
+
+.sec-third .f-col {
+    background-color: rgb(37, 3, 74);
+}
+
+.sec-four .fc {
+    background-color: rgb(37, 3, 74);
+}
+.sec-first {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.search {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.search:active {
+    border: none;
+    outline: none;
+}
+.icon-rtl{
+    padding-right: 20px !important;
+    background: url("../../assets/images/pngfind.com-search-icon-png-545056.png") no-repeat right;
+    background-position: 97% 50%;
+    background-size: 20px;
+    color:white;
+}
+
+.sec-second .degree {
+    right: 90%;
+}
+
+.sec-second .celsius {
+    color: #ecc607;
+}
+
+.sec-first input {
+    border: none;
+    color: white;
+    padding: 35px;
+    border-radius: 15px;
+    font-size:medium;
+    background-color: rgb(37, 3, 74);
+}
+
+.sec-second .text {
+    padding: 12px;
+    font-size: 1.7rem;
+}
+
+.sec-second .text-date {
+    padding: 12px;
+    font-size: 1.7rem;
+    color: grey;
+}
+
+.sec-second {
+    margin-bottom: 3rem;
+}
+
+.sec-second .sec-row {
+    border-radius: 25px;
+}
+
+.sec-second {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.sec-second .degree {
+    font-size: 4rem;
+    padding: 10%;
+}
+
+.sec-third {
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.sec-third .f-col {
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+.sec-four {
+    color: white;
+}
+
+.sec-four .sf {
+    border-radius: 25px;
+    padding: 2rem;
+} */
+.humidity-pressure,.humidity-h3{
+    padding-left: 10px;
+}
+@media screen and (max-width:420px) {
+    .humidity-text>h3 {
+        padding-top: 7px !important;
+        font-size: 1.3rem !important;
+    }
+    .humidity-h3,.humidity-pressure{
+        padding-left:15px !important;
+    }
+    .humidity-img{
+        padding-left: 4px !important;
+    }
+    .humidity-img>div>img {
+        /* padding-top:15px !important; */
+        padding-bottom: 15px !important;
+        width:14vw !important;
+    }
+    .sec-second .text-date {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:2000px) {
+    .humidity-text>h3 {
+        padding-top: 15px !important;
+        font-size: 2.5rem !important;
+    }
+    .humidity-img>div>img {
+        width:10vw !important;
+    }
+    .sec-second .degree {
+        font-size: 4.5rem !important;
+        padding: 8% !important;
+    }
+    .location,.sec-first input ,.sec-third p {
+        font-size: 1.5rem !important;
+    }
+    .sec-second .text ,.sec-third h5{
+        font-size:2rem !important;
+    }
+    .sec-second .text-date {
+        font-size: 1.8rem !important;
+    }
+    .weather-img>img {
+        width: 40% !important;
+    }
+    .nav-class{
+        font-size:2.5rem !important;
+    }
+}
+@media screen and (min-width:280px) and (max-width:280px){
+    .humidity-text>h3 {
+        font-size: 1rem !important;
+    }
+    .sec-second .degree {
+        font-size: 2.5rem !important;
+        padding: 8% !important;
+    }
+    .location, .sec-third h5,.sec-third p,  .sec-second .text-date{
+        font-size: 0.8rem !important;
+    }
+    .sec-second .text {
+        font-size: 1.2rem !important;
+    }
+    .nav-class{
+        font-size:1.5rem !important;
+    }
+    .weather-img>img {
+        padding-top: 1px !important;
+    }
+    .humidity-h3,.humidity-pressure{
+        padding-left:5px !important;
+    }
+}
+
+.location{
+    font-size:1rem;
+}
+.nav-class {
+    color: white;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1>i {
+    text-align: left !important;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.sec-second .row {
+    background-color: rgb(37, 3, 74);
+}
+
+.sec-third .f-col {
+    background-color: rgb(37, 3, 74);
+}
+
+.sec-four .fc {
+    background-color: rgb(37, 3, 74);
+}
+
+.sec-first {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.search {
+    border: none;
+    outline: none;
+    width: 100%;
+    text-indent: 15px;
+}
+
+.search:active {
+    border: none;
+    outline: none;
+}
+
+.icon-rtl {
+    background: url("../../assets/images/pngfind.com-search-icon-png-545056.png") no-repeat right;
+    background-position: 96% 50%;
+    background-size: 20px;
+    color: white;
+}
+
+
+.sec-second .celsius {
+    color: #ecc607;
+}
+
+.weather-img>img {
+    padding-top: 12px;
+    width: 50%;
+}
+
+.humidity-img>div>img {
+    /* padding: 2px; */
+    width: 10vw;
+    height: 100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    /* max-width: 100%; */
+    /* object-fit: contain; */
+    justify-content: center;
+    filter: none; 
+-webkit-filter: blur(0px); 
+-moz-filter: blur(0px); 
+-ms-filter: blur(0px);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+
+}
+
+.humidity-text>h3 {
+    /* padding-top: 15px; */
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.day-text>h3 {
+    font-size: 2rem;
+}
+
+.sec-first input {
+    border: none;
+    color: white;
+    border-radius: 15px;
+    font-size: medium;
+    background-color: rgb(37, 3, 74);
+}
+
+.sec-second .text {
+    padding: 12px;
+    font-size: 1.7rem;
+}
+
+.sec-second .text-date {
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: right;
+    color: white;
+}
+
+.sec-second {
+    margin-bottom: 3rem;
+}
+
+.sec-second .sec-row {
+    border-radius: 15px;
+}
+
+.sec-second {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.sec-second .degree {
+    font-size: 3.5rem;
+    padding: 10%;
+}
+
+.sec-third {
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.sec-third .f-col {
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.sec-four {
+    color: white;
+}
+
+.sec-four .sf {
+    border-radius: 25px;
+    padding: 2rem;
+}
