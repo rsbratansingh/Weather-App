@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WeatherComponent } from './weather/weather.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 const app = initializeApp(environment.firebaseConfig);
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ const app = initializeApp(environment.firebaseConfig);
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

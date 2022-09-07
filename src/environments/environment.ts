@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  WeatherBaseAPIUrl:'https://open-weather-map27.p.rapidapi.com/weather',
   firebaseConfig:{
     apiKey: "AIzaSyBJQ82FEhes50Md6K98rsevGqDotVa0ihc",
     authDomain: "weatherapp-cd3b2.firebaseapp.com",
